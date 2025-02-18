@@ -1,0 +1,370 @@
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:  6fr ;
+    grid-template-rows: auto;
+    grid-template-areas: " header" " main" " footer";
+}
+.search img{
+    float: left;
+    margin: 0.5%;
+    margin-top: -3%;
+}
+
+header{
+    grid-area: header;
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    top: 0vh;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    background-color: rgb(74, 74, 138);
+    /* margin-top: -1.5%; */
+}
+nav li{
+    margin-right: 4%;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+nav a:hover{
+    text-decoration:underline;
+
+}
+.welcome h1{
+	height: 5vh;
+    color: white;
+    margin-right: 25%;
+    margin-top: -1.5%;
+}
+
+.welcome h1:before{
+    content:"";
+    animation-name:t;
+    animation-duration:4s;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes t{
+    0%{
+        content:"";
+    }
+    10%{
+        content:"W";
+    }
+    20%{
+        content:"Wel";
+    }
+    30%{
+        content:"Welco";
+    }
+    40%{
+        content:"Welcom";
+    }
+    50%{
+        content:"Welcome ";
+    }
+    60%{
+        content:"Welcome to";
+    }
+    70%{
+        content:"Welcome to O";
+    }
+    80%{
+        content:"Welcome to Our";
+    }
+    90%{
+        content:"Welcome to Our Web";
+    }
+    100%{
+        content:"Welcome to our Website";
+    }
+}
+
+.header_img img{
+    width: 85vw;
+}
+div{
+    margin-top: 3%;
+}
+
+.line2 img{
+    height:80vh;
+    width: 19vw;
+}
+
+.line9{
+    background-color: rgb(52, 52, 60);
+    width: 100vw;
+    height: 5vh;
+}
+.line9 a{
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+    margin-left: 46%;
+
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: rgb(43, 43, 52);
+    height: 40vh;
+    display: flex;
+}
+.ph{
+    margin-left: 2%;
+}
+.ph1{
+    margin-left: 8%;
+}
+.ph1 h1{
+    color: white;
+    font-size: 120%;
+}
+.ph1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph1 a:hover{
+    text-decoration: underline;
+}
+
+.ph2{
+    margin-left: 8%;
+}
+.ph2 h1{
+    color: white;
+    font-size: 120%;
+}
+.ph2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph2 a:hover{
+    text-decoration: underline;
+}
+
+.ph3{
+    margin-left: 8%;
+}
+.ph3 h1{
+    color: white;
+    font-size: 120%;
+}
+.ph3 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph3 a:hover{
+    text-decoration: underline;
+}
+
+.ph4{
+    margin-left: 8%;
+}
+
+.ph4 h1{
+    color: white;
+    font-size: 120%;
+   
+}
+.ph4 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph4 a:hover{
+    text-decoration: underline;
+}
+main{
+    grid-area: main;
+    background-color: white;
+    
+}
+.iphone{
+    display: flex;
+}
+.side img{
+    /* margin-left: 2%;
+    margin-top: 1%; */
+    height: 6vh;
+    display: flex;
+    padding: 10%;
+    border-radius: 20%;
+}
+.img img{
+    height: 70vh;
+    width: 70vh;
+    margin-left: 5%;
+}
+
+
+.contant{
+    margin-left: 10%;
+}
+.contant h1{
+    font-size: 180%;
+}
+.contant h2{
+    color: blue;
+    font-size: 100%; 
+}
+.contant a{
+    text-decoration: none;
+}
+.contant a:hover{
+    text-decoration: underline;
+}
+.contant h3{
+    color: black;
+    font-size: 100%;
+}
+.contant h4{
+    font-size: 190%;
+    margin-left: 18%;
+    margin-top: -9%;
+    
+}
+.contant h5{
+    text-decoration: line-through;
+    margin-top: -4%;
+}
+.fbox{
+    display: flex;
+}
+.box1 {
+    border-style: solid;
+    width: 30%;
+    padding: 2%;
+    margin-right: 2%;
+}
+.box2 {
+    border-style: solid;
+    width: 30%;
+    padding: 2%;
+    margin-right: 2%;
+}
+.box3 {
+    border-style: solid;
+    width: 30%;
+    padding: 2%;
+    margin-right: 2%;
+}
+.fonts{
+    display: flex;
+}
+.warranty{
+    margin-right: 5%;
+}
+.brand{
+    margin-right: 5%;
+}
+.return{
+    margin-right: 5%;
+}
+.delevery{
+    margin-right: 5%;
+}
+.fonts a{
+   color: rgb(17, 162, 220);
+}
+.img7 img{
+    width: 100vw;
+    margin-left:0% ;
+}
+.img8 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img9 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img10 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img11 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img12 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img13 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img14 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img15 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img16 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img17 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.img18 img{
+    width: 100vw;
+    margin-left:0% ;
+    margin-top: -4%;
+}
+.button{
+    margin-top: 90vh;
+    margin-left: -10%;
+}
+.button1{
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20%;
+    background-color: rgb(255, 242, 0);
+
+}
+.button2 {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20%;
+    background-color: orange;
+    margin-top: 4%;
+}

@@ -1,0 +1,55 @@
+.container{
+   
+    width:100vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header"
+    "aside main"
+    "aside footer";
+}
+
+*{
+    padding:0%;
+    margin:0%;
+}
+
+header{
+    grid-area:header;
+    height:20vh;
+    background-color:darkgoldenrod;
+    /* position:sticky; */
+    top:0vh;
+}
+
+footer{
+    grid-area:footer;
+    height:20vh;
+    background-color:black;
+}
+
+main{
+  
+    grid-area:main;
+    background-color:white;
+    height:60vh;
+    overflow-y: scroll;
+}
+
+aside{
+    height:80vh;
+    grid-area:aside;
+    background-color:gray;
+    overflow-y: scroll;
+    /* position:fixed; */
+    top:20vh;
+}
+
+li{
+    font-size:30px;
+    line-height:40px;
+    background-color:brown;
+    color:yellow;
+    list-style:none;
+}

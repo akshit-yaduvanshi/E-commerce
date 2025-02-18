@@ -1,0 +1,251 @@
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 5fr ;
+    grid-template-rows: auto;
+    grid-template-areas: "header header" "main main" "footer footer";
+}
+.search img{
+    float: left;
+    margin: 0.5%;
+    margin-top: -3%;
+}
+
+header{
+    grid-area: header;
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    top: 0vh;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    background-color: rgb(74, 74, 138);
+    /* margin-top: -1.5%; */
+}
+nav li{
+    margin-right: 4%;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+nav a:hover{
+    text-decoration:underline;
+
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: rgb(43, 43, 52);
+    height: 40vh;
+    display: flex;
+}
+aside{
+    grid-area: sidebar;
+    background-color:rgb(228, 209, 209);
+    width: 15vw;
+    overflow-y:scroll ;
+    top: 20vh;
+    position: fixed;
+    height: 85vh;
+    top: 15vh;
+}
+
+main{
+    grid-area: main;
+    background-color: whitesmoke;
+    width: 100vw;
+    margin-top: 5%;
+}
+.ph{
+    margin-left: 2%;
+}
+.sidebar{
+    margin-left: 10%;
+}
+.sidebar a{
+    text-decoration: none;
+}
+.sidebar a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+.welcome h1{
+	height: 5vh;
+    color: white;
+    margin-right: 25%;
+    margin-top: -1.5%;
+}
+
+.welcome h1:before{
+    content:"";
+    animation-name:t;
+    animation-duration:4s;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes t{
+    0%{
+        content:"";
+    }
+    10%{
+        content:"W";
+    }
+    20%{
+        content:"Wel";
+    }
+    30%{
+        content:"Welco";
+    }
+    40%{
+        content:"Welcom";
+    }
+    50%{
+        content:"Welcome ";
+    }
+    60%{
+        content:"Welcome to";
+    }
+    70%{
+        content:"Welcome to O";
+    }
+    80%{
+        content:"Welcome to Our";
+    }
+    90%{
+        content:"Welcome to Our Web";
+    }
+    100%{
+        content:"Welcome to our Website";
+    }
+}
+
+.header_img img{
+    width: 85vw;
+}
+.line a{
+    font-size: 50%;
+}
+
+.line img{
+    height:80vh;
+    width: 19vw;
+}
+
+.line2 img{
+    height:80vh;
+    width: 19vw;
+}
+.line3{
+    background-color: white;
+}
+.line3 img{
+    height: 80vh;
+    width: 45vw;
+}
+div{
+    margin-top: 3%;
+}
+
+
+
+.line9{
+    background-color: rgb(52, 52, 60);
+    width: 100vw;
+    height: 5vh;
+}
+.line9 a{
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+    margin-left: 40%;
+
+}
+
+
+.ph1{
+    margin-left: 8%;
+}
+.ph1 h1{
+    color: white;
+    font-size: 120%;
+}
+.ph1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph1 a:hover{
+    text-decoration: underline;
+}
+
+.ph2{
+    margin-left: 8%;
+}
+.ph2 h1{
+    color: white;
+    font-size: 120%;
+}
+.ph2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph2 a:hover{
+    text-decoration: underline;
+}
+
+.ph3{
+    margin-left: 8%;
+}
+.ph3 h1{
+    color: white;
+    font-size: 120%;
+}
+.ph3 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph3 a:hover{
+    text-decoration: underline;
+}
+
+.ph4{
+    margin-left: 8%;
+}
+
+.ph4 h1{
+    color: white;
+    font-size: 120%;
+   
+}
+.ph4 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    opacity: 0.7;
+}
+.ph4 a:hover{
+    text-decoration: underline;
+}
+
+
